@@ -1,13 +1,34 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "notifications": [
+    {
+      "id": 1,
+      "triggered_event": "Driver high heart rate",
+      "threshold_exceeded": "Heart rate over 100 bpm",
+      "heart_rate_value": 120,
+      "time_stamp": "2024-05-02T18:50:11Z",
+      "status": 1,
+      "bus_unit_id": 101,
+      "users_id": 2
+    },
+    {
+      "id": 2,
+      "triggered_event": "Driver low heart rate",
+      "threshold_exceeded": "Heart rate below 60 bpm",
+      "heart_rate_value": 55,
+      "time_stamp": "2024-05-02T19:50:11Z",
+      "status": 1,
+      "bus_unit_id": 102,
+      "users_id": 2
+    },
+    {
+      "id": 3,
+      "triggered_event": "Bus deviated from the route",
+      "threshold_exceeded": "Speed over 50 km/h",
+      "heart_rate_value": 80,
+      "time_stamp": "2024-05-02T20:50:11Z",
+      "status": 1,
+      "bus_unit_id": 101,
+      "users_id": 2
     }
-  }
+  ]
+}
